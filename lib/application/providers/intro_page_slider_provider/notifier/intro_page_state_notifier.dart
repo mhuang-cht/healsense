@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:fpdart/fpdart.dart' show some;
 import 'package:fimber/fimber.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' hide Durations;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:healsense/infastructure/core/constants/durations.dart';
 import 'package:healsense/infastructure/core/constants/typedefs.dart';
